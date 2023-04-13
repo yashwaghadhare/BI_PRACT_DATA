@@ -1,0 +1,7 @@
+Data Visualization :: 
+	
+	1. Select GetData -> OData feed
+	2. Impport Data -> http://services.odata.org/V3/Northwind/Northwind.svc/
+	3. Then drag and drop clustered chart and select product name and unitinstock
+	4. Make sure you are selected sum in unitinstock.
+	5. select limechart and then import OrderDate and Limetotal in it resply

@@ -1,0 +1,9 @@
+Import and Extract Data :: 
+
+	1. Select GetData -> OData feed
+	2. Impport Data -> http://services.odata.org/V3/Northwind/Northwind.svc/
+	3. Open query editor & remove except ProductID, ProductName, UnitsInStock, QuantityPerUnit
+	4. Change DataType of UnitsInStock to wholenumber
+	5. Expand OrderDetail column and select ProductID, UnitPrice, and Quantity
+	6. In Q.Edi. add column LIMETOTAL and [Order_Details.UnitPrice]*[Order_Details.Quantity] and hot ok
+	7. Mearge relationship and and take ss of yellow box msg and done
